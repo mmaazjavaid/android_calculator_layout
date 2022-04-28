@@ -195,7 +195,23 @@
             android:textSize="25dp">
         </Button>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1">
 
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="90dp"
+            android:backgroundTint="@color/darkGrey"
+            android:text="="
+            android:textColor="@color/orange"
+            android:textSize="50dp"
+
+            >
+        </Button>
+    </LinearLayout>
 
 
 </LinearLayout>
